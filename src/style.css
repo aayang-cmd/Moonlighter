@@ -1,0 +1,18 @@
+/* Global app styles */
+#app { font-family: Avenir, Helvetica, Arial, sans-serif; color: #2c3e50; }
+
+/* Center all text horizontally across the app and apply cream background */
+body, #app { text-align: center; background-color: #fff8e7; min-height: 100vh; }
+
+/* Image styles */
+img, .hero, .image { border: 2px solid black; width: 300px; display: block; margin: auto; max-width: 100%; height: auto; }
+
+/* Header / navigation */
+.app-header { background: #ededed; padding: 12px; border-bottom: 1px solid #eee; }
+nav { display: flex; gap: 8px; justify-content: center; }
+nav button { background: #42b983; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; }
+nav button:hover { opacity: 0.9; }
+
+/* Layout */
+.container { padding: 16px; }
+

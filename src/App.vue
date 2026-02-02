@@ -1,26 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1 class="text">Moonlighter</h1>
+ 
+    <p>Big Back Heaven</p>
+
+    <img src="./assets\Cherry Blossom BGM.png" alt="Cherry Blossom BGM" />
+    
+     <br>
+     <p1> We built this haven to give exposure to the type of food being served. 
+      Toro sushi and Unagi bowls should be more appreciated</p1> 
+      <br>
+      <br>
+    <img src="./assets\JBG.png" class="image">
+    <br>
+    <p1>Japanese inspired restaurant, serving traditional dishes with a modern twist</p1>
+
+  
+
+  
+
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
